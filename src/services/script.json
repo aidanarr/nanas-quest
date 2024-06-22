@@ -1,0 +1,1316 @@
+[
+  {
+    "scene": [
+      {
+        "id": "script-start",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Voy camino a la librería a paso ligero).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "pout",
+        "dialogue": "(Como no tengan el dichoso libro que nos mandaron en clase me voy a\nmeter en líos).",
+        "textSpeed": 20
+      },
+      {
+        "id": "3",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "oops",
+        "dialogue": "(No recordaba que la fecha límite para entregar el trabajo sobre el libro\nfuera hoy mismo).",
+        "textSpeed": 20
+      },
+      {
+        "id": "4",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "oops",
+        "dialogue": "(Hay que ver, Nana, eres un desastre).",
+        "textSpeed": 20
+      },
+      {
+        "id": "5",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "oops",
+        "dialogue": "(Pero bueno, oye, las 23:59 es una hora tan válida como cualquier otra\npara entregar un trabajo).",
+        "textSpeed": 20
+      },
+      {
+        "id": "6",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "glad",
+        "dialogue": "(Además, si hubiese pedido el libro por internet con tiempo, me habría\nperdido este bonito paseo por el centro).",
+        "textSpeed": 20
+      },
+      {
+        "id": "7",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "glad",
+        "dialogue": "(Hay que mirar el lado positivo de las cosas).",
+        "textSpeed": 20
+      },
+      {
+        "id": "8",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Continúo atravesando el parque, hasta que, a lo lejos, me parece ver una silueta conocida).",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "start",
+    "sceneBg": "park",
+    "nextScene": 1
+  }, {
+    "scene": [
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "happy",
+        "dialogue": "¿Huh? ¡Simon!",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Simon",
+        "charaPic": "simon-surprise",
+        "nanaPic": "normal",
+        "dialogue": "¡Ay!",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Simon",
+        "charaPic": "simon-surprise",
+        "nanaPic": "normal",
+        "dialogue": "Nana, jolines, qué susto me has dado.",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-glad",
+        "nanaPic": "",
+        "dialogue": "(Este es Simon, uno de mis mejores amigos).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-glad",
+        "nanaPic": "",
+        "dialogue": "(Lo conozco desde que éramos unos niños. Es algo tímido y muy\ndespistado).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-glad",
+        "nanaPic": "",
+        "dialogue": "(De hecho, cuando lo he visto parecía estar buscando algo).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-normal",
+        "nanaPic": "normal",
+        "dialogue": "¿Estás bien? Pareces algo agobiado.",
+        "textSpeed": 20
+      },
+      {
+        "id": "simon-choices-1",
+        "name": "Simon",
+        "charaPic": "simon-pout",
+        "nanaPic": "normal",
+        "dialogue": "Ah, um, bueno es que... He perdido mi agenda por aquí cerca.",
+        "textSpeed": 20
+      }      
+    ],
+    "sceneId": "simon-1",
+    "sceneBg": "park",
+    "nextScene": 2
+  },
+  {
+    "scene": [
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-surprise",
+        "nanaPic": "normal",
+        "dialogue": "Ah bueno, yo me tengo que ir ya, eh.",
+        "textSpeed": 20
+      },
+      {
+        "id": "simon-choices-2",
+        "name": "Nana",
+        "charaPic": "simon-surprise",
+        "nanaPic": "normal",
+        "dialogue": "Chao pescao.",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "simon-2",
+    "sceneBg": "park",
+    "nextScene": 1
+  }, 
+  {
+    "scene": [
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-pout",
+        "nanaPic": "glad",
+        "dialogue": "Veo que has seleccionado la otra opción, muy bien.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-pout",
+        "nanaPic": "glad",
+        "dialogue": "Hay que ser curiosos en esta vida.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-pout",
+        "nanaPic": "normal",
+        "dialogue": "Pero esto es sólo una demo así que el resultado va a ser el mismo, sorry.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Simon",
+        "charaPic": "simon-surprise",
+        "nanaPic": "normal",
+        "dialogue": "¿Qué dices?",
+        "textSpeed": 20
+      },
+      {
+        "id": "simon-choices-2",
+        "name": "Nana",
+        "charaPic": "simon-surprise",
+        "nanaPic": "oops",
+        "dialogue": "Nada nada, que yo me tengo que ir ya. ¡Suerte con lo de tu agenda, eh!",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "simon-3",
+    "sceneBg": "park",
+    "nextScene": 1
+  }, { 
+    "scene": [
+      {
+        "id": "1",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(De camino a buscar el libro, me llega un agradable olor a café por esta\ncalle).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "2",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "pout",
+        "dialogue": "(Si no tuviese que leerme un libro y escribir un trabajo antes de las 23:59, me sentaría a tomar un café tranquilamente).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "3",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "surprised",
+        "dialogue": "(Uy, espera, ¿ese no es...?).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "4",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Sentado en la terraza de la cafetería está Abel, cabizbajo).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "5",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Es un amigo que conocí en una fiesta universitaria de la facultad de\nhistoria).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "6",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "normal",
+        "dialogue": "¿Abel?",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "7",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Abel levanta la vista de su café y me mira con una expresión de sorpresa).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "8",
+        "name": "Abel",
+        "charaPic": "abel-happy",
+        "nanaPic": "normal",
+        "dialogue": "¡Nana! Dichosos los ojos. Me has dado una alegría al fin en este día tan\ngris.",
+        "textSpeed": 15
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-normal",
+        "nanaPic": "normal",
+        "dialogue": "Día gris no hombre, con el sol que hace.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-pout",
+        "nanaPic": "normal",
+        "dialogue": "Verás... es que estoy algo alicaído...",
+        "textSpeed": 35
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-pout",
+        "nanaPic": "normal",
+        "dialogue": "Te invito a un café y te cuento si quieres.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-sad",
+        "nanaPic": "surprised",
+        "dialogue": "Ha ocurrido una desgracia.",
+        "textSpeed": 10
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-sad",
+        "nanaPic": "surprised",
+        "dialogue": "¿Ha pasado algo grave?",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-pout",
+        "nanaPic": "surprised",
+        "dialogue": "Es esa pequeña cafetería tan cuqui a la que fuimos una vez,\n¿te acuerdas?",
+        "textSpeed": 10
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-sad",
+        "nanaPic": "surprised",
+        "dialogue": "Pues resulta que...",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-surprised",
+        "nanaPic": "oops",
+        "dialogue": "Perdona, Abel, verás... Es que tengo que comprarme un libro, leérmelo y\nentregar un trabajo antes de las 23:59.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-surprised",
+        "nanaPic": "oops",
+        "dialogue": "Pero tú mándame un audio si quieres.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "abel-choices",
+        "name": "Abel",
+        "charaPic": "abel-sad",
+        "nanaPic": "oops",
+        "dialogue": "Vale, jo. Ahora te cuento.",
+        "textSpeed": 10
+      }
+    ],
+    "sceneId": "abel",
+    "sceneBg": "cafe",
+    "nextScene": 9
+  }, { 
+    "scene": [
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Mi visita a la librería no ha sido nada fructífera).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Acaba de decirme el dependiente que no les queda ningún ejemplar del libro).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Así que nada, me dispongo a salir de la librería cuando de repente...).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "???",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "¡Nana! Hey.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "surprised",
+        "dialogue": "???",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-normal",
+        "nanaPic": "",
+        "dialogue": "(Me giro y ahí está Enya, una vieja amiga del instituto).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-normal",
+        "nanaPic": "normal",
+        "dialogue": "Anda, Enya, ¡hola! No te había visto.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-smile",
+        "nanaPic": "normal",
+        "dialogue": "Qué casualidad, ¿y eso que estás por aquí? ¿Buscabas algún libro?",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-smile",
+        "nanaPic": "pout",
+        "dialogue": "Ah, sí, uno de clase, pero no lo tienen.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-pout",
+        "nanaPic": "pout",
+        "dialogue": "Pff vaya, es un fastidio cuando la librería más grande de la ciudad\nno tiene lo que buscas, ¿verdad?",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-pout",
+        "nanaPic": "surprised",
+        "dialogue": "Y te toca recorrerte el resto de tiendas con la esperanza de que el libro\naparezca...",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-pout",
+        "nanaPic": "oops",
+        "dialogue": "Uh, asumo que te ha pasado algo parecido, ¿no?",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-pout",
+        "nanaPic": "surprised",
+        "dialogue": "Eso es... ",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-angry",
+        "nanaPic": "surprised",
+        "dialogue": "¡Es indignante lo que ha pasado con la edición especial de este libro!",
+        "textSpeed": 10
+      }, 
+      {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-angry",
+        "nanaPic": "surprised",
+        "dialogue": "Tenía tantas ganas de tenerlo que lo reservé para asegurarme de\nconseguir la primera edición, entonces...",
+        "textSpeed": 10
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-angry",
+        "nanaPic": "oops",
+        "dialogue": "Perdona, Enya, es que tengo algo de prisa.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-surprised",
+        "nanaPic": "oops",
+        "dialogue": "Tengo que encontrar el libro que necesito hoy sin falta.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-unimpressed",
+        "nanaPic": "oops",
+        "dialogue": "Ah... ¿No me digas que te has vuelto a dejar un trabajo para el último día y\nahora te ha pillado el toro?",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-unimpressed",
+        "nanaPic": "oops",
+        "dialogue": "N-no, es que...",
+        "textSpeed": 80
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-unimpressed",
+        "nanaPic": "oops",
+        "dialogue": "Me muero de ganas de leerlo.",
+        "textSpeed": 20
+      },
+      {
+        "id": "enya-choices",
+        "name": "Enya",
+        "charaPic": "enya-normal",
+        "nanaPic": "oops",
+        "dialogue": "Ya... Bueno, no te entretengo más entonces.",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "enya",
+    "sceneBg": "bookshop",
+    "nextScene": 9
+  },
+  { 
+    "scene": [
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "Simon sigue buscando su agenda.",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "Me sabe mal, pero no puedo quedarme aquí ayudándole a buscarla.",
+        "textSpeed": 20
+      },
+      {
+        "id": "simon-choices-2",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "Tengo que ir a por el dichoso libro.",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "park-return",
+    "sceneBg": "park",
+    "nextScene": 3
+  }, { 
+    "scene": [
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "Ahí sigue Abel en el mismo sitio.",
+        "textSpeed": "20"
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "Todavía no ha terminado de grabar el audio.",
+        "textSpeed": 20
+      },
+      {
+        "id": "abel-choices",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "Bueno, a ver si encuentro ya el libro.",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "cafe-return",
+    "sceneBg": "cafe",
+    "nextScene": 3
+  }, { 
+    "scene": [
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "Enya todavía está buscando entre las estanterías llenas de libros.",
+        "textSpeed": "20"
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "Parece que no se da por vencida.",
+        "textSpeed": 20
+      },
+      {
+        "id": "enya-choices",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "Bueno, a ver si encuentro yo también mi libro.",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "bookshop-return",
+    "sceneBg": "bookshop",
+    "nextScene": 3
+  }, { 
+    "scene": [
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "pout",
+        "dialogue": "(He recorrido casi todas las tiendas de libros de alrededor y no lo tenían\nen ninguna).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "sad",
+        "dialogue": "(Estoy agotada... Quizás debería darme por vencida y volver a la cafetería\ncon Abel).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "sad",
+        "dialogue": "(Bueno en fin, yo misma me lo he buscado).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "surprised",
+        "dialogue": "¿Huh? ¿Y esto?",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Me doy cuenta de que en el suelo hay un billete de 20 euros).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Hubiese estado bien encontrar el libro en vez de esto, pero oye, tampoco le voy a hacer ascos).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Seguro que ha sido el universo mandándome un premio de consolación o algo así).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(\"¿Un premio por haberlo dejado todo para el último momento?\". Bueno, chica, yo qué sé).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Yo no escribo las reglas).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "glad",
+        "dialogue": "(Con esto voy a comprarme un caprichito, que me lo merezco después de estar todo el día de aquí para allá).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Entro en una tienda de estas que tienen un poco de todo, a ver qué me\nllama la atención).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Pero después de echar un vistazo, no encuentro nada que me guste\nespecialmente).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Eso sí, encuentro una agenda elegante y bonita que creo que le podría gustar a Simon).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(También hay un vinilo de uno de estos grupos indies que escucha Abel, y está de oferta, ojo).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Y, bueno, nadie se imaginará lo que me he encontrado a continuación).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Ni más ni menos que la primera edición de un libro de la saga favorita de Enya).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(¿Será este el libro que estaba buscando?).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "surprised",
+        "dialogue": "(Casi parece como si alguien hubiese colocado aquí estos tres objetos\nespecialmente para mí).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "glad",
+        "dialogue": "(Un poco raro, pero quién soy yo para cuestionar estas cosas).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "buy-choices",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "normal",
+        "dialogue": "(¿Qué debería hacer?).",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "buy",
+    "sceneBg": "street",
+    "nextScene": 7
+  },  { 
+    "scene": [
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(He vuelto al parque al final).",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(A ver si sigue Simon por aquí, o quizás ya haya encontrado su agenda).",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Simon",
+        "charaPic": "simon-normal",
+        "nanaPic": "",
+        "dialogue": "¡Hey, Nana! Hola de nuevo.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-normal",
+        "nanaPic": "normal",
+        "dialogue": "¡Hey! Justo a ti te estaba buscando.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Simon",
+        "charaPic": "simon-surprise",
+        "nanaPic": "normal",
+        "dialogue": "¿Y eso? No me digas que has encontrado mi agenda.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-surprise",
+        "nanaPic": "glad",
+        "dialogue": "Me temo que no. Lo que sí he encontrado es tu nueva agenda.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-surprise",
+        "nanaPic": "",
+        "dialogue": "(Le doy a Simon la agenda que acabo de comprar).",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-surprise",
+        "nanaPic": "",
+        "dialogue": "(Una gran sonrisa se dibuja en su cara).",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Simon",
+        "charaPic": "simon-glad",
+        "nanaPic": "normal",
+        "dialogue": "¿Y esto? Jolines, Nana, no hacía falta.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-glad",
+        "nanaPic": "oops",
+        "dialogue": "Sé que no es lo mismo, porque esta agenda está vacía.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-glad",
+        "nanaPic": "glad",
+        "dialogue": "Pero bueno, siempre puedes sentarte un rato e intentar recordar tus tareas pendientes.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-glad",
+        "nanaPic": "glad",
+        "dialogue": "Tómatelo como un ejercicio para ejercitar la memoria.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Simon",
+        "charaPic": "simon-normal",
+        "nanaPic": "glad",
+        "dialogue": "Sí, supongo que debería dejar de buscar de una vez...",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Simon",
+        "charaPic": "simon-normal",
+        "nanaPic": "glad",
+        "dialogue": "Aprovecharé para empezar de nuevo.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Simon",
+        "charaPic": "simon-glad",
+        "nanaPic": "glad",
+        "dialogue": "Y esta agenda prometo no perderla.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-glad",
+        "nanaPic": "normal",
+        "dialogue": "Eso, más te vale.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-surprise",
+        "nanaPic": "glad",
+        "dialogue": "Que he renunciado a leerme un libro y hacer un trabajo por\nconseguírtela.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Simon",
+        "charaPic": "simon-surprise",
+        "nanaPic": "glad",
+        "dialogue": "¡Pero Nana...!",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-pout",
+        "nanaPic": "normal",
+        "dialogue": "Que no, hombre, que es broma. Si es que no lo iba a hacer igualmente.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "simon-pout",
+        "nanaPic": "normal",
+        "dialogue": "Va, ¿paseamos un rato por aquí? Y me vas contando tu lista de tareas.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Simon",
+        "charaPic": "simon-normal",
+        "nanaPic": "normal",
+        "dialogue": "¿Estás segura?",
+        "textSpeed": 20
+      }, {
+        "id": "simon-end",
+        "name": "Nana",
+        "charaPic": "simon-normal",
+        "nanaPic": "glad",
+        "dialogue": "Que siiii, venga vamos.",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "simon-end",
+    "sceneBg": "park",
+    "nextScene": 13
+  }, { 
+    "scene": [
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(He vuelto a la librería con mi nuevo libro recién adquirido).",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "normal",
+        "dialogue": "(Conociendo a Enya, seguramente siga por aquí).",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Al cabo de un rato la encuentro ojeando libros en la sección de novela\njuvenil).",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "normal",
+        "dialogue": "¡Hey! He vuelto.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-normal",
+        "nanaPic": "normal",
+        "dialogue": "Hey, ¿conseguiste el libro al final?",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-normal",
+        "nanaPic": "oops",
+        "dialogue": "Bueno, no el que estaba buscando.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-normal",
+        "nanaPic": "normal",
+        "dialogue": "Pero he conseguido otro...",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-surprised",
+        "nanaPic": "happy",
+        "dialogue": "¡Para ti!",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-surprised",
+        "nanaPic": "happy",
+        "dialogue": "¡Hala! ¿Pero y esto? ¿Por qué?",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-surprised",
+        "nanaPic": "normal",
+        "dialogue": "¿No era este el libro que querías?",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-happy",
+        "nanaPic": "normal",
+        "dialogue": "Sí lo era, ¿cómo lo has conseguido?",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-happy",
+        "nanaPic": "",
+        "dialogue": "(No me puedo creer que de verdad ese fuera el libro que tanto estaba\nbuscando).",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-happy",
+        "nanaPic": "",
+        "dialogue": "(Qué suerte tengo).",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-happy",
+        "nanaPic": "glad",
+        "dialogue": "Bueno, una tiene sus trucos.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-smile",
+        "nanaPic": "glad",
+        "dialogue": "Es muy amable por tu parte, ¡muchas gracias! Dime lo que te ha costado y te lo pago.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-smile",
+        "nanaPic": "normal",
+        "dialogue": "Nada, nada, te lo regalo. Si lo he comprado con 20 euros que me he encontrado en el suelo.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-normal",
+        "nanaPic": "normal",
+        "dialogue": "Anda... Bueno, ha sido una suerte, desde luego.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-smile",
+        "nanaPic": "normal",
+        "dialogue": "Deja que te invite a algo por el detalle aunque sea.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-normal",
+        "nanaPic": "normal",
+        "dialogue": "Ah no, que tenías que hacer un trabajo, es verdad.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "enya-normal",
+        "nanaPic": "glad",
+        "dialogue": "Bah, el trabajo puede esperar.",
+        "textSpeed": 20
+      }, {
+        "id": "",
+        "name": "Enya",
+        "charaPic": "enya-unimpressed",
+        "nanaPic": "glad",
+        "dialogue": "Anda que... Mira que lo sabía.",
+        "textSpeed": 20
+      }, {
+        "id": "enya-end",
+        "name": "Nana",
+        "charaPic": "enya-unimpressed",
+        "nanaPic": "glad",
+        "dialogue": "Venga, vámonos antes de que cambies de idea.",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "enya-end",
+    "sceneBg": "bookshop",
+    "nextScene": 13
+  }, { 
+    "scene": [
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Vuelvo a la cafetería con el vinilo indie bajo el brazo).",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "(Encuentro a Abel en el mismo sitio. Por suerte, creo que ya ha terminado de grabar el audio).",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "",
+        "nanaPic": "normal",
+        "dialogue": "Qué, ¿todavía ahogando las penas en café?",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-normal",
+        "nanaPic": "normal",
+        "dialogue": "¡Nana, has vuelto!",
+        "textSpeed": 10
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-normal",
+        "nanaPic": "normal",
+        "dialogue": "Justo acabo de terminar de mandarte el audio.",
+        "textSpeed": 10
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-normal",
+        "nanaPic": "oops",
+        "dialogue": "Sí que tenías cosas que contar.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-normal",
+        "nanaPic": "normal",
+        "dialogue": "Bueno, mira, te traigo una cosa para animarte.",
+        "textSpeed": 10
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-happy",
+        "nanaPic": "normal",
+        "dialogue": "¿Para mí?",
+        "textSpeed": 10
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-happy",
+        "nanaPic": "normal",
+        "dialogue": "He visto este vinilo de oferta en una tienda. No sé si ya lo tienes, pero\nbueno, para tu colección.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-surprised",
+        "nanaPic": "normal",
+        "dialogue": "¡¡Pero Nana, qué regalazo!! No me lo puedo creer.",
+        "textSpeed": 10
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-sad",
+        "nanaPic": "normal",
+        "dialogue": "¡Eres demasiado buena conmigo! No me lo merezco.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-sad",
+        "nanaPic": "normal",
+        "dialogue": "Bah no es para tanto, literalmente lo he comprado con un billete que me he encontrado en el suelo.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-sad",
+        "nanaPic": "glad",
+        "dialogue": "Pero oye, ¡me alegro de que te guste!",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-sad",
+        "nanaPic": "normal",
+        "dialogue": "No sé qué pasaría con la cafetería esa hipster que tanto te gustaba, pero bueno, igual esto te anima.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-sad",
+        "nanaPic": "normal",
+        "dialogue": "¿La han cerrado o algo así?",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-pout",
+        "nanaPic": "surprised",
+        "dialogue": "¡Peor! ¡Es que ahora está de moda!",
+        "textSpeed": 10
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-pout",
+        "nanaPic": "oops",
+        "dialogue": ". . .",
+        "textSpeed": 150
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-normal",
+        "nanaPic": "oops",
+        "dialogue": "Pero bueno, ¡no te preocupes! Ya estoy mucho más animado.",
+        "textSpeed": 10
+      }, 
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-normal",
+        "nanaPic": "normal",
+        "dialogue": "Tú vete a hacer tu trabajo si tienes prisa, de todas formas ya te he\nmandado un audio contándote la historia.",
+        "textSpeed": 10
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-normal",
+        "nanaPic": "normal",
+        "dialogue": "Bueno, me puedo quedar un rato y me la cuentas en persona si quieres.",
+        "textSpeed": 20
+      }, 
+      {
+        "id": "",
+        "name": "Nana",
+        "charaPic": "abel-normal",
+        "nanaPic": "glad",
+        "dialogue": "El trabajo puede esperar.",
+        "textSpeed": 20
+      },
+      {
+        "id": "",
+        "name": "Abel",
+        "charaPic": "abel-happy",
+        "nanaPic": "glad",
+        "dialogue": "¿Sí? ¡Vale! En ese caso, déjame que te invite a algo como agradecimiento y ahora te cuento.",
+        "textSpeed": 10
+      },
+      {
+        "id": "abel-end",
+        "name": "Nana",
+        "charaPic": "abel-normal",
+        "nanaPic": "normal",
+        "dialogue": "No seré yo quien diga que no.",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "end",
+    "sceneBg": "cafe",
+    "nextScene": 13
+  },
+
+  { 
+    "scene": [
+      {
+        "id": "",
+        "name": "",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "",
+        "textSpeed": 20
+      }
+    ],
+    "sceneId": "game-end",
+    "sceneBg": "bg-blank",
+    "nextScene": null
+  }
+]

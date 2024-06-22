@@ -1,0 +1,15 @@
+{ 
+    "scene": [
+      {
+        "id": "1",
+        "name": "",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": "",
+        "textSpeed": 15
+      } 
+    ],
+    "sceneId": "",
+    "sceneBg": "",
+    "nextScene": 
+  }
