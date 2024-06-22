@@ -238,7 +238,7 @@ function Game() {
   return (
     <>
       <div className="page">
-        {/* deploy: change img routes from ./src/images/ to /nanas-quest-vn/assets/ */}
+        {/* deploy: change img routes from ./src/images/ to /nanas-quest/assets/ */}
         {renderChoices()}
         <div className="screen" onClick={handleClick} style={{ backgroundImage: `url(/nanas-quest-vn/assets/bg-${script[sceneIndex].sceneBg}.png)` }}>
           <div className="textbox">
@@ -247,8 +247,8 @@ function Game() {
               <p>{currentScene.name}</p>
             </div>
           </div>
-          <div style={{ backgroundImage: `url(/nanas-quest-vn/assets/nana-${currentScene.nanaPic}.png)` }} className="sprite2"></div>
-          <div style={{ backgroundImage: `url(/nanas-quest-vn/assets/${currentScene.charaPic}.png)` }} className="sprite"></div>
+          <div style={{ backgroundImage: `url(/nanas-quest/assets/nana-${currentScene.nanaPic}.png)` }} className="sprite2"></div>
+          <div style={{ backgroundImage: `url(/nanas-quest/assets/${currentScene.charaPic}.png)` }} className="sprite"></div>
           <p className="wip-text">Demo - proyecto en construcción</p>
         </div>
         <div className="screen-legend">
