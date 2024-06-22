@@ -238,7 +238,7 @@ function Game() {
   return (
     <>
       <div className="page">
-        {/* deploy: cambiar ruta de las imágenes de ./src/images/ a /nanas-quest-vn/assets/ */}
+        {/* deploy: change img routes from ./src/images/ to /nanas-quest-vn/assets/ */}
         {renderChoices()}
         <div className="screen" onClick={handleClick} style={{ backgroundImage: `url(/nanas-quest-vn/assets/bg-${script[sceneIndex].sceneBg}.png)` }}>
           <div className="textbox">
