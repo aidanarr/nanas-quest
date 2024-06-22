@@ -4,7 +4,7 @@
 
 ![Nana's Quest home screen](/public/nanas-quest.png)
 
-Nana's Quest es un juego tipo **visual novel**. Este género se caracteriza por mostrar en pantalla una serie de diálogos acompañados de imágenes de los personajes y los escenarios en los que se encuentran, entre otros. Se trata de un juego **interactivo** que le presentará al jugador distintas opciones de diálogo, dependiendo de la opción elegida se podrán obtener distintos finales.
+Nana's Quest es un juego tipo **visual novel**. Este género se caracteriza por mostrar en pantalla una serie de diálogos acompañados de imágenes de los personajes y los escenarios en los que se encuentran, entre otros. Se trata de un juego **interactivo** que le presentará al jugador distintas opciones de diálogo a elegir, y dependiendo de la opción que escoja se podrán obtener distintos finales.
 
 ## Tecnologías
 El proyecto ha sido creado utilizando React + Vite. Una vez clonado el repositorio, utiliza el comando `npm install` para crear la carpeta node_modules y `npm run dev` para iniciar el juego.
