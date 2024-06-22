@@ -240,7 +240,7 @@ function Game() {
       <div className="page">
         {/* deploy: change img routes from ./src/images/ to /nanas-quest/assets/ */}
         {renderChoices()}
-        <div className="screen" onClick={handleClick} style={{ backgroundImage: `url(/nanas-quest-vn/assets/bg-${script[sceneIndex].sceneBg}.png)` }}>
+        <div className="screen" onClick={handleClick} style={{ backgroundImage: `url(/nanas-quest/assets/bg-${script[sceneIndex].sceneBg}.png)` }}>
           <div className="textbox">
             <TextTyper setPreventClick={setPreventClick} preventClick={preventClick} text={currentScene.dialogue} interval={renderTextSpeed()} />
             <div className={`name ${renderNameColor()}`}>
