@@ -170,7 +170,7 @@
         "name": "Nana",
         "charaPic": "simon-pout",
         "nanaPic": "glad",
-        "dialogue": "Veo que has seleccionado la otra opción, muy bien.",
+        "dialogue": "Veo que has seleccionado la opción larga, muy bien.",
         "textSpeed": 20
       }, {
         "id": "",
@@ -1105,7 +1105,7 @@
     ],
     "sceneId": "enya-end",
     "sceneBg": "bookshop",
-    "nextScene": 13
+    "nextScene": 14
   }, { 
     "scene": [
       {
@@ -1295,22 +1295,50 @@
     ],
     "sceneId": "end",
     "sceneBg": "cafe",
-    "nextScene": 13
+    "nextScene": 15
   },
 
   { 
     "scene": [
       {
-        "id": "",
+        "id": "simon-end",
         "name": "",
         "charaPic": "",
         "nanaPic": "",
-        "dialogue": "",
+        "dialogue": " ",
         "textSpeed": 20
-      }
+      } 
     ],
     "sceneId": "game-end",
-    "sceneBg": "bg-blank",
+    "sceneBg": "blank",
+    "nextScene": null
+  }, { 
+    "scene": [
+      {
+        "id": "enya-end",
+        "name": "",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": " ",
+        "textSpeed": 20
+      } 
+    ],
+    "sceneId": "game-end",
+    "sceneBg": "blank",
+    "nextScene": null
+  }, { 
+    "scene": [
+      {
+        "id": "abel-end",
+        "name": "",
+        "charaPic": "",
+        "nanaPic": "",
+        "dialogue": " ",
+        "textSpeed": 20
+      } 
+    ],
+    "sceneId": "game-end",
+    "sceneBg": "blank",
     "nextScene": null
   }
 ]

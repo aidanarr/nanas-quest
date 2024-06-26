@@ -1,8 +1,8 @@
-
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-export const EndingScreen = ({character, item, handleChoiceClick}) => {
+export const EndingScreen = ({character, item, handleChoiceClick, setDialogueIndex}) => {
 
     const thanksMsg = <div className="thanks-msg">
     <p>¡Gracias por jugar!</p>
@@ -31,7 +31,8 @@ export const EndingScreen = ({character, item, handleChoiceClick}) => {
 
     function handleBuyOther(ev) {
       ev.preventDefault();
-      handleChoiceClick(9)
+      handleChoiceClick(9);
+      setDialogueIndex(17);
       localStorage.clear();
     }
 
@@ -44,4 +45,11 @@ export const EndingScreen = ({character, item, handleChoiceClick}) => {
       
   </>
   )
+}
+
+EndingScreen.propTypes = {
+  character: PropTypes.string,
+  item: PropTypes.string,
+  handleChoiceClick: PropTypes.func,
+  setDialogueIndex: PropTypes.func,
 }

@@ -84,9 +84,13 @@ function Game() {
         // if both enya and abel scenes were reached, jump to the next scene
         setSceneIndex(nextSceneIndex);
         setDialogueIndex(0); 
-      } else if (script[sceneIndex].scene[dialogueIndex].id.includes("choices") || currentScene.id.includes("end")) {
+      } else if (script[sceneIndex].scene[dialogueIndex].id.includes("choices")) {
         // if there's choices to render, update dialogueIndex
         setDialogueIndex(dialogueIndex + 1);
+        
+      } else if (currentScene.id.includes("end")) {
+        setSceneIndex(nextSceneIndex);
+        setDialogueIndex(0)
       } else {
         // scene end is reached
         if (nextSceneIndex !== null) {
@@ -177,31 +181,33 @@ function Game() {
         );
       }
 
-      const endingChoices = {
-        "simon-end": {
-          item: planner,
-          character: simon,
-        }, 
-        "enya-end": {
-          item: book,
-          character: enya,
-        }, 
-        "abel-end": {
-          item: vinyl,
-          character: abel,
-        }   
-      };
-  
-      if (currentScene.id.includes("end"))  {
-        const {item, character} = endingChoices[currentScene.id];
-  
-        return <EndingScreen handleChoiceClick={handleChoiceClick} item={item} character={character} />
-      }
-
     } else return null;
   }
 
-  
+  // display ending illustrations depending on the choices
+  function renderEndings() {
+    const endingChoices = {
+      "simon-end": {
+        item: planner,
+        character: simon,
+      }, 
+      "enya-end": {
+        item: book,
+        character: enya,
+      }, 
+      "abel-end": {
+        item: vinyl,
+        character: abel,
+      }   
+    };
+
+    if (script[sceneIndex].sceneId === "game-end")  {
+      const {item, character} = endingChoices[currentScene.id];
+      
+      return <EndingScreen setDialogueIndex={setDialogueIndex} handleChoiceClick={handleChoiceClick} item={item} character={character} />
+    }
+  }
+
   // name box color
   function renderNameColor() {
     const name = currentScene.name
@@ -215,6 +221,8 @@ function Game() {
       return "name-abel"
     } else if (name === "???") {
       return "name-unknown"
+    } else if (name === "") {
+      return "name-empty"
     }
   }
 
@@ -239,16 +247,16 @@ function Game() {
     <>
       <div className="page">
         {/* deploy: change img routes from ./src/images/ to /nanas-quest/assets/ */}
-        {renderChoices()}
-        <div className="screen" onClick={handleClick} style={{ backgroundImage: `url(/nanas-quest/assets/bg-${script[sceneIndex].sceneBg}.png)` }}>
+        {script[sceneIndex].sceneId === "game-end" ? renderEndings() : renderChoices()}
+        <div className="screen" onClick={handleClick} style={{ backgroundImage: `url(./src/images/bg-${script[sceneIndex].sceneBg}.png)` }}>
           <div className="textbox">
             <TextTyper setPreventClick={setPreventClick} preventClick={preventClick} text={currentScene.dialogue} interval={renderTextSpeed()} />
             <div className={`name ${renderNameColor()}`}>
               <p>{currentScene.name}</p>
             </div>
           </div>
-          <div style={{ backgroundImage: `url(/nanas-quest/assets/nana-${currentScene.nanaPic}.png)` }} className="sprite2"></div>
-          <div style={{ backgroundImage: `url(/nanas-quest/assets/${currentScene.charaPic}.png)` }} className="sprite"></div>
+          <div style={{ backgroundImage: `url(./src/images/nana-${currentScene.nanaPic}.png)` }} className="sprite2"></div>
+          <div style={{ backgroundImage: `url(./src/images/${currentScene.charaPic}.png)` }} className="sprite"></div>
           <p className="wip-text">Demo - proyecto en construcción</p>
         </div>
         <div className="screen-legend">
